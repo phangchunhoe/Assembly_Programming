@@ -1,0 +1,15 @@
+
+org 100h
+
+MOV AX, 81H
+MOV BX, 0502H
+DIV BL
+MOV AH, 00H
+DIV BL
+
+
+ret
+
+
+
+

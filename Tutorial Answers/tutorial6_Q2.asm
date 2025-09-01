@@ -1,0 +1,15 @@
+
+org 100h
+
+MOV AL, 6DH
+MOV BL, AL
+MOV CL, AL
+AND AL, 0F0H
+OR BL, 0F0H
+XOR CL, 0F0H
+
+ret
+
+
+
+
